@@ -13,6 +13,8 @@
 		F923C9F41FE94A410037BC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F923C9F31FE94A410037BC92 /* Assets.xcassets */; };
 		F923C9F71FE94A410037BC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F923C9F51FE94A410037BC92 /* LaunchScreen.storyboard */; };
 		F923C9FA1FE94A410037BC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C9F91FE94A410037BC92 /* main.m */; };
+		F923CA0A1FE94D3D0037BC92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F923CA091FE94D3D0037BC92 /* Images.xcassets */; };
+		F923CA0C1FE94DD50037BC92 /* SKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F923CA041FE94C030037BC92 /* SKSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F923C9F61FE94A410037BC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F923C9F81FE94A410037BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F923C9F91FE94A410037BC92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F923CA031FE94C030037BC92 /* SKSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSwitch.h; sourceTree = "<group>"; };
+		F923CA041FE94C030037BC92 /* SKSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSwitch.m; sourceTree = "<group>"; };
+		F923CA091FE94D3D0037BC92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../../../suresh/Documents/CustomSwitchLibrary/CustomSwitchLibrary/Resources/Assets/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +65,74 @@
 			children = (
 				F923C9EA1FE94A410037BC92 /* AppDelegate.h */,
 				F923C9EB1FE94A410037BC92 /* AppDelegate.m */,
-				F923C9ED1FE94A410037BC92 /* ViewController.h */,
-				F923C9EE1FE94A410037BC92 /* ViewController.m */,
-				F923C9F01FE94A410037BC92 /* Main.storyboard */,
-				F923C9F31FE94A410037BC92 /* Assets.xcassets */,
-				F923C9F51FE94A410037BC92 /* LaunchScreen.storyboard */,
+				F923CA021FE94BC40037BC92 /* Models */,
+				F923CA011FE94BBD0037BC92 /* Views */,
+				F923CA001FE94BB00037BC92 /* Controllers */,
+				F923CA061FE94CDB0037BC92 /* Resources */,
 				F923C9F81FE94A410037BC92 /* Info.plist */,
 				F923C9F91FE94A410037BC92 /* main.m */,
 			);
 			path = CustomSwitchLibrary;
+			sourceTree = "<group>";
+		};
+		F923CA001FE94BB00037BC92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F923C9ED1FE94A410037BC92 /* ViewController.h */,
+				F923C9EE1FE94A410037BC92 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F923CA011FE94BBD0037BC92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F923CA051FE94C0A0037BC92 /* Library */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F923CA021FE94BC40037BC92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F923CA051FE94C0A0037BC92 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F923CA031FE94C030037BC92 /* SKSwitch.h */,
+				F923CA041FE94C030037BC92 /* SKSwitch.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F923CA061FE94CDB0037BC92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F923CA071FE94D190037BC92 /* Storyboards */,
+				F923CA081FE94D240037BC92 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F923CA071FE94D190037BC92 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F923C9F01FE94A410037BC92 /* Main.storyboard */,
+				F923C9F51FE94A410037BC92 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F923CA081FE94D240037BC92 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F923C9F31FE94A410037BC92 /* Assets.xcassets */,
+				F923CA091FE94D3D0037BC92 /* Images.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F923C9F71FE94A410037BC92 /* LaunchScreen.storyboard in Resources */,
+				F923CA0A1FE94D3D0037BC92 /* Images.xcassets in Resources */,
 				F923C9F41FE94A410037BC92 /* Assets.xcassets in Resources */,
 				F923C9F21FE94A410037BC92 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F923CA0C1FE94DD50037BC92 /* SKSwitch.m in Sources */,
 				F923C9EF1FE94A410037BC92 /* ViewController.m in Sources */,
 				F923C9FA1FE94A410037BC92 /* main.m in Sources */,
 				F923C9EC1FE94A410037BC92 /* AppDelegate.m in Sources */,
