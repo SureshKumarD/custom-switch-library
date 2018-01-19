@@ -15,6 +15,7 @@
 		F923C9FA1FE94A410037BC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F923C9F91FE94A410037BC92 /* main.m */; };
 		F923CA0A1FE94D3D0037BC92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F923CA091FE94D3D0037BC92 /* Images.xcassets */; };
 		F923CA0C1FE94DD50037BC92 /* SKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F923CA041FE94C030037BC92 /* SKSwitch.m */; };
+		F9740D9E20121F7500652E46 /* SS1.png in Resources */ = {isa = PBXBuildFile; fileRef = F9740D9D20121F7500652E46 /* SS1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F923CA031FE94C030037BC92 /* SKSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSwitch.h; sourceTree = "<group>"; };
 		F923CA041FE94C030037BC92 /* SKSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSwitch.m; sourceTree = "<group>"; };
 		F923CA091FE94D3D0037BC92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../../../suresh/Documents/CustomSwitchLibrary/CustomSwitchLibrary/Resources/Assets/Images.xcassets; sourceTree = "<group>"; };
+		F9740D9D20121F7500652E46 /* SS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SS1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		F923CA061FE94CDB0037BC92 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F9740D9C20121F6400652E46 /* Screenshots */,
 				F923CA071FE94D190037BC92 /* Storyboards */,
 				F923CA081FE94D240037BC92 /* Assets */,
 			);
@@ -133,6 +136,14 @@
 				F923CA091FE94D3D0037BC92 /* Images.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		F9740D9C20121F6400652E46 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				F9740D9D20121F7500652E46 /* SS1.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				F923CA0A1FE94D3D0037BC92 /* Images.xcassets in Resources */,
 				F923C9F41FE94A410037BC92 /* Assets.xcassets in Resources */,
 				F923C9F21FE94A410037BC92 /* Main.storyboard in Resources */,
+				F9740D9E20121F7500652E46 /* SS1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
